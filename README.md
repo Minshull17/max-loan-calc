@@ -1,1 +1,1 @@
-# max-loan-calc
+This repository was created to store files used for testing a maximum loan calculation for further advance mortgage applications where the valuation figure provided by the surveyor is lower than the initial estimated figure.
