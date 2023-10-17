@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortgage Loan Calculator</title>
+    <style>
+        /* Optional: Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label, input, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Mortgage Loan Calculator</h1>
     <label for="propertyValue">Property Value:</label>
-    <input type="number" id="propertyValue" required><br>
+    <input type="number" id="propertyValue" required>
 
     <label for="ltvPercentage">Loan-to-Value Percentage:</label>
-    <input type="number" id="ltvPercentage" required><br>
+    <input type="number" id="ltvPercentage" required>
 
     <label for="rentalCoverageRatio">Minimum Rental Coverage Ratio:</label>
-    <input type="number" id="rentalCoverageRatio" required><br>
+    <input type="number" id="rentalCoverageRatio" required>
+
+    <label for="rentalIncome">Monthly Rental Income:</label>
+    <input type="number" id="rentalIncome" required>
+
+    <label for="interestRate">Interest Rate (%):</label>
+    <input type="number" id="interestRate" required>
 
     <button onclick="calculateLoan()">Calculate</button>
 
     <div id="result"></div>
 
-    <script src="calculation.js"></script>
+    <script src="calculator.js"></script>
 </body>
 </html>
