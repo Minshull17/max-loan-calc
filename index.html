@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Loan Calculator</title>
+</head>
+<body>
+    <h1>Mortgage Loan Calculator</h1>
+    <label for="propertyValue">Property Value:</label>
+    <input type="number" id="propertyValue" required><br>
+
+    <label for="ltvPercentage">Loan-to-Value Percentage:</label>
+    <input type="number" id="ltvPercentage" required><br>
+
+    <label for="rentalCoverageRatio">Minimum Rental Coverage Ratio:</label>
+    <input type="number" id="rentalCoverageRatio" required><br>
+
+    <button onclick="calculateLoan()">Calculate</button>
+
+    <div id="result"></div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
